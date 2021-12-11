@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon | About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'shop/about.css' %}">
+    <link rel="stylesheet" href="{% static 'shop/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="text-align: center;"><b>It Any Quary, PLease Contact Us</b></h3>
+                <form>
+                    <div class="form-row">
+                      <div class="col-12">
+                        <label for="name">Full name</label>
+                        <input type="text" class="form-control" placeholder="Mofiz Khandokar">
+                      </div>
+                      <div class="col-md-12">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="mofiz@email.com">
+                      </div>
+                      <div class="col-md-12">
+                        <label for="text">Your Quary</label>
+                        <textarea name="textarea" id="textarea" cols="123" rows="10"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </form>
+            </div>
+        </div>   
+    </div>
+</body>
+</html>
